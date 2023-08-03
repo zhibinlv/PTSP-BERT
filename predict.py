@@ -105,8 +105,8 @@ if __name__=="__main__":
     parser = argparse.ArgumentParser(description='Input a Fasta file, output the predction results in CSV')
  
     
-    parser.add_argument('-infasta', type=str, default="./Data/test.fasta")
-    parser.add_argument('-out', type=str, default="Results.Pred.csv")
+    parser.add_argument('--infasta', type=str, default="./Data/test.fasta")
+    parser.add_argument('--out', type=str, default="Results.Pred.csv")
  
     
     args = parser.parse_args()
