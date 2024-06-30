@@ -1,8 +1,8 @@
-# PTM-BERT
+# PTSP-BERT
 Please install Anaconda first and then create a conda env.<br>
 Follow by the commands as below.<br>
-conda create -n PTM-BERT python=3.7<br>
-conda activate PTM-BERT<br>
+conda create -n PTSP-BERT python=3.7<br>
+conda activate PTSP-BERT <br>
 pip install -r requirements.txt<br>
 
 
